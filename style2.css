@@ -1,0 +1,77 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 150vh;
+  }
+  
+  .header {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .content {
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #bfebb5;
+    padding: 10px;
+  }
+  
+  .service {
+    width: 28%;
+    margin-bottom: 10px;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .service h2 {
+    margin-top: 0;
+  }
+  
+  .service h3 {
+    margin-top: 0;
+    font-size: 22px;
+  }
+  .service img {
+    max-width: 50%;
+    height: auto;
+  }
+  
+  .footer {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  /* Для мобильных устройств */
+@media (max-width: 480px) {
+    body {
+      font-size: 16px;
+    }
+    .service {
+      width: 100%;
+    }
+  }
+  
+  /* Для планшетов */
+  @media (min-width: 481px) and (max-width: 768px) {
+    body {
+      font-size: 18px;
+    }
+    .service {
+      width: 48%;
+    }
+  }
+  
+  /* Для настольных компьютеров */
+  @media (min-width: 769px) {
+    body {
+      font-size: 20px;
+    }
+    .service {
+      width: 31%;
+    }
+  }
