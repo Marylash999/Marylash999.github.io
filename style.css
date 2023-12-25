@@ -1,0 +1,102 @@
+body {
+    background-image: url("post-3-1000x500.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #111;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #4CAF50;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a[href^="tel:"] {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 10;
+    float: right;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Для мобильных устройств */
+@media (max-width: 480px) {
+    body {
+        font-size: 16px;
+    }
+
+    .service {
+        width: 100%;
+    }
+}
+
+/* Для планшетов */
+@media (min-width: 481px) and (max-width: 768px) {
+    body {
+        font-size: 18px;
+    }
+
+    .service {
+        width: 48%;
+    }
+}
+
+/* Для настольных компьютеров */
+@media (min-width: 769px) {
+    body {
+        font-size: 20px;
+    }
+
+    .service {
+        width: 31%;
+    }
+}
